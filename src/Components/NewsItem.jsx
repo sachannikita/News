@@ -15,7 +15,7 @@ const NewsItem = ({ title, description, src, url, theme }) => {
         alt="news"
       />
       <div className="card-body">
-        <h5 className="card-title">{title?.slice(0, 50)}</h5>
+        <h4 className="card-title">{title?.slice(0, 50)}</h4>
         <p className="card-text">
           {description
             ? description.slice(0, 90)
